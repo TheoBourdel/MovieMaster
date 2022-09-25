@@ -1,0 +1,106 @@
+@use "../../scss/" as *;
+
+header {
+    width: 100%;
+    padding: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+
+    & .header-wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 85%;
+
+        @include mobile {
+            justify-content: center;
+        }
+
+        & .logo {
+            font-size: 2.5rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: unset;
+            cursor: pointer;
+
+            & img {
+                width: 50px;
+
+                @include mobile {
+                    width: 40px;
+                    margin-right: 0;
+                }
+            }
+        }
+
+        & nav {
+            display: flex;
+            align-items: center;
+            justify-content: unset;
+
+            & ul {
+                display: flex;
+                gap: 45px;
+
+                @include mobile {
+                    gap: 0px;
+                    justify-content: space-between !important;
+                }
+                
+                & li {
+                    cursor: pointer;
+                    font-weight: 700;
+                    font-size: 1.4rem;
+                    position: relative;
+                    text-align: center;
+
+                    @include mobile {
+                        font-size: 1.1rem;
+                    }
+
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        bottom: 0;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 0;
+                        transition: width 0.5s ease;
+                        height: 2px;
+                        background-color: $main-color;
+                    }
+        
+                    &.active::after,
+                    &:hover::after {
+                        width: 100%;
+                    }
+                }
+
+                @include mobile {
+                    position: fixed;
+                    bottom: 0;
+                    left: 0;
+                    height: 5rem;
+                    width: 100%;
+                    background-color: $bg-color;
+                    padding: 0 2rem;
+                    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+        
+                    & > * ~ * {
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+
+    }
+}
