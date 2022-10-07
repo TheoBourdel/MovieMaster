@@ -18,8 +18,8 @@
 <!-- ABOUT THE PROJECT -->
 ## À propos du projet
 
-Ceci est un projet perso dont le but est de m'entrainer à utiliser ReactJS et une RestAPI. Le projet sera mis à jour
-de temps en temps. Il y aura donc de nouvelles features à l'avenir...
+Ceci est un projet perso dont le but est de m'entrainer à utiliser ReactJS et une RestAPI. J'utilise l'API TMDB pour avoir le catalogue de films / séries:
+Le projet sera mis à jour de temps en temps. Il y aura donc de nouvelles features à l'avenir...
 
 
 ### Built With
@@ -74,3 +74,5 @@ Project Link: [MovieMaster](https://github.com/TheoBourdel/MovieMaster)
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Sass-url]: https://sass-lang.com/
+[Sass]: https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white
+
