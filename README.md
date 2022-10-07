@@ -18,7 +18,7 @@
 <!-- ABOUT THE PROJECT -->
 ## À propos du projet
 
-Ceci est un projet perso dont le but est de m'entrainer à utiliser ReactJS et une RestAPI. J'utilise l'API TMDB pour avoir le catalogue de films / séries:
+Ceci est un projet perso dont le but est de m'entrainer à utiliser ReactJS et une RestAPI. J'utilise l'API TMDB pour avoir le catalogue de films / séries.
 Le projet sera mis à jour de temps en temps. Il y aura donc de nouvelles features à l'avenir...
 
 
@@ -63,7 +63,7 @@ Voici tout ce qu'il faut faire pour lancer le projet :
 
 Mail - bourdeltheo@gmail.com
 
-Project Link: [MovieMaster](https://github.com/TheoBourdel/MovieMaster)
+Project Link - [MovieMaster](https://github.com/TheoBourdel/MovieMaster)
 
 
 
