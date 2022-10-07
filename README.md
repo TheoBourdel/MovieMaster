@@ -19,7 +19,7 @@
 ## À propos du projet
 
 Ceci est un projet perso dont le but est de m'entrainer à utiliser ReactJS et une RestAPI. Le projet sera mis à jour
-de temps en temps. Il y aura donc de nouvelles features...
+de temps en temps. Il y aura donc de nouvelles features à l'avenir...
 
 
 ### Built With
