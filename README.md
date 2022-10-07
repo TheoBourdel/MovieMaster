@@ -36,8 +36,7 @@ Voici tout ce qu'il faut faire pour lancer le projet :
 
 ### Prerequisites
 
-Installe la dernière version de npm
-* npm
+1. Installe la dernière version de npm
   ```sh
   npm install npm@latest -g
   ```
