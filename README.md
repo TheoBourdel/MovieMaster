@@ -27,8 +27,6 @@ Le projet sera mis à jour de temps en temps. Il y aura donc de nouvelles featur
 
 * [![React][React.js]][React-url]
 * [![Sass][Sass]][Sass-url]
-* [![tmdb API][tmdb API]][tmdb API]
-
 
 
 <!-- GETTING STARTED -->
